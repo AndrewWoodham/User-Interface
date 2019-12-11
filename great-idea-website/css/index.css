@@ -64,7 +64,11 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
- nav a {
+.navbar{
+	padding-left: 3%;
+	margin-bottom: 3%;
+} 
+nav a {
 	display: inline-block;
 	width: 10%;
 	padding: 3%;
@@ -79,7 +83,11 @@ h1, h2, h3, h4, h5 {
 .heading{
 	display: inline-block;
 	box-sizing: border-box;
+	width: 10%;
+	margin-left: 20%;
+	
 }
+
 .button{
 	margin-left: 10%;
 	padding: .5% ;
@@ -89,18 +97,20 @@ h1, h2, h3, h4, h5 {
 	display: inline-block;
 
 }
+
 h1{
 	font-size: 500%;
 	text-align: center;
-	width: 30%;
-	height:20%;
+	width: 60%;
+	height:10%;
 	margin-left: 10%;
 	display: inline-block;
-	margin-bottom: 5%;
+	justify-content: center;
 	
 }
 .buttonnav{
-	width: 200%;
+	margin-top: 5%;
+	width: 230%;
 	align-content: left;
 }
 section{
@@ -111,6 +121,7 @@ display: inline-block;
 
 .headersection{
 	padding-left: 10%;
+	margin-left: 10%;
 }
 .headerimage{
 	margin-left: 40%;
@@ -156,13 +167,16 @@ display: inline-block;
 
 footer{
 	margin-top: 3%;
-	line-height: 200%;
+	line-height: 120%;
 	display:block;
 	margin-left: 15%;
+}
+address{
+	line-height: 100%;
 }
 .copyright{
 	width: 100%;
 	text-align: center;
-	margin-bottom:20%;
+	margin-bottom:10%;
 	margin-top: 3%;
 }
