@@ -67,6 +67,9 @@ h1, h2, h3, h4, h5 {
 body{
 	margin-top: 10%;
 }
+html, body{
+	font-family: 'Solway', serif;
+}
 
 .navbar{
 	padding-left: 3%;
@@ -82,6 +85,18 @@ nav a {
 	padding: 3%;
 	color: slategray;
 	text-decoration: none;
+}
+@keyframes hover{
+	from{font-size: 100%}
+	to{font-size: 150%}
+	from{color: slategray}
+	to{color: slateblue}
+}
+nav a:hover{
+	font-size: 150%;
+	color: slateblue;
+	animation: hover;
+	animation-duration: .5s;
 }
 
 .logo{
@@ -101,7 +116,7 @@ nav a {
 	padding: .5% ;
 	border: solid slategray;
 	text-align: center;
-	width: 15%;
+	width: 20%;
 	display: inline-block;
 
 }
@@ -109,7 +124,7 @@ nav a {
 h1{
 	font-size: 500%;
 	text-align: center;
-	width: 60%;
+	width: 70%;
 	height:10%;
 	margin-left: 10%;
 	display: inline-block;
