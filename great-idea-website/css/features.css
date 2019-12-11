@@ -112,28 +112,27 @@ h1{
 	text-align: center;
 	width: 70%;
 	height:10%;
-	margin-left: 10%;
+	margin: 10% 15% 0% 15%;
 	display: block;
-    justify-content: center;
+
 }
 
 .content{
     margin: 2% 15% 2% 15%;
     border-bottom: dotted slategray 3px;
     border-top: dotted slategray 3px;
+    padding: 2% 0% 2% 0%;
 }
 
 p{
     display: inline-block;
     width: 10%;
     height:10%;
-    margin: 2% 5% 2% 5%;
-    justify-content: center;
+    margin: 5% 5% 5% 5%;
 }
 img {
     height: 10%;
     width: 10%;
-    justify-content: left;
     margin: 0%;
     padding: 0%;
     border: 0%;
