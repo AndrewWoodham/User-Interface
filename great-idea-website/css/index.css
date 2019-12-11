@@ -71,6 +71,7 @@ h1, h2, h3, h4, h5 {
 	color: slategray;
 	text-decoration: none;
 }
+
 .logo{
 	margin-left: 20%;
 }
@@ -107,38 +108,57 @@ width: 40%;
 box-sizing: border-box;
 display: inline-block;
 }
+
 .headersection{
 	padding-left: 10%;
 }
 .headerimage{
 	margin-left: 40%;
 }
+#aboutbox{
+	border-top: solid black 1px;
+	margin-left: 15%;
+	margin-right: 15%;
+	align-content: center;
+	margin-top:3%;
+	padding-left: 2.5%;
+	padding-top: 1%;
+}
+
 .about{
 	display: inline-block;
 	box-sizing: border-box;
-	width: 39%;
-	border-top: black 1px solid;
-	margin-left: 5%;
-	margin-top: 5%;
-	justify-content: center;
+	width: 43%;
 	padding-top: 2%;
+	padding-left: 5%;
+
 }
 
 .middle-img{
 	display: block;
-	margin: 3% 20% 3% 20%;
+	margin: 3% 20% 3% 20.7%;
+}
+#contentbox{
+	border-bottom: solid black 1px;
+	margin-left: 15%;
+	margin-right: 15%;
+	align-content: center;
+	height:30%;
+	padding-left: 5%;
 }
 .content{
-	border-bottom: solid slategray 1px;
 	display: inline-block;
+	box-sizing: border-box;
 	width: 30%;
-	margin-left: 3%;
+	padding-top: 2%;
+	padding-left: 2%;
 }
 
 footer{
 	margin-top: 3%;
 	line-height: 200%;
 	display:block;
+	margin-left: 15%;
 }
 .copyright{
 	width: 100%;
